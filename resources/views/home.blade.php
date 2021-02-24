@@ -46,7 +46,7 @@
           <a href="/rutina/perder-peso">
           <div class="card-body mb-4 wow bounceInLeft" data-wow-delay=".25s">
             <h4 class="card-title">PERDER PESO </h4>
-            <p class="card-text">realizar el movimiento van a requerir la participación de varios músculos,
+            <p class="card-text" style="color: aliceblue;">realizar el movimiento van a requerir la participación de varios músculos,
                                  lo cual se traduce en un mayor gasto calórico y por tanto, mayor quema de grasas.</p>
           </div>
           </a>
@@ -57,7 +57,7 @@
         <div class="card"> <img class="card-img-top img-fluid wow bounceInUp" data-wow-delay=".25s" src="images/g2.jpg" alt="Card image">
           <div class="card-body mt-4 wow bounceInDown" data-wow-delay=".25s">
             <h4 class="card-title">DEFINICION</h4>
-            <p class="card-text">Definir músculo se refiere  a la capacidad de perder grasa corporal manteniendo la cantidad de masa muscular intacta ,
+            <p class="card-text" style="color: aliceblue;">Definir músculo se refiere  a la capacidad de perder grasa corporal manteniendo la cantidad de masa muscular intacta ,
                                     para ello, es necesario perder la grasa subcutánea y eliminar el líquido sobrante de los tejidos.</p>
           </div>
         </div>
@@ -68,7 +68,7 @@
         <a href="/rutina/hipertrofia">
           <div class="card-body mb-4 wow bounceInRight" data-wow-delay=".25s">
             <h4 class="card-title">HIPERTROFIA</h4>
-            <p class="card-text">La hipertrofia muscular es el nombre científico dado al fenómeno de crecimiento
+            <p class="card-text"style="color: aliceblue;">La hipertrofia muscular es el nombre científico dado al fenómeno de crecimiento
                            en el tamaño de las células musculares, lo cual supone un aumento de tamaño de las fibras musculares y por lo tanto del músculo.</p>
           </div>
           <img class="card-img-top img-fluid wow bounceInLeft" data-wow-delay=".25s" src="images/g3.jpg" alt="Card image"> </div>

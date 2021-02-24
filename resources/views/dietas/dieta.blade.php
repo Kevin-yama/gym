@@ -19,16 +19,7 @@ padding-top: 2px;">&#127968; </a>
 					</div>
 				</div>
         @endforeach
-
 			</div>
-            <!--  -->
 	    </div>
 	</div>
-
-
-
-
-
-
-
 @stop

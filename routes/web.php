@@ -39,9 +39,9 @@ Route::get('/rutina/definir', [RutinasController::class,'definir']);
 Route::get('/rutina/hipertrofia', [RutinasController::class,'hipertrofia']);
 
 ROUTE::get('/dietas',[DietasController::class,'dieta']);
-ROUTE::get('/dietas/aumentar',[DietasController::class,'aumentar']);
-ROUTE::get('/dietas/bajar',[DietasController::class,'bajar']);
-ROUTE::get('/dietas/definir',[DietasController::class,'estable']);
+// ROUTE::get('/dietas/aumentar',[DietasController::class,'aumentar']);
+// ROUTE::get('/dietas/bajar',[DietasController::class,'bajar']);
+// ROUTE::get('/dietas/definir',[DietasController::class,'estable']);
 
 Route::get('/', function()
 {

@@ -12,16 +12,19 @@ class DietasController extends Controller
         return view('dietas.dieta', ['datos' => $data]);
     }
     public function aumentar(){
-        $data = DB::table('dietas')->where('nombre', 'aumentar peso')->first();
-        return view('dietas.aumentar', ['datos' => $data]);
+        $dieta = DB::table('dietas')->where('nombre', 'aumentar peso')->first();
+        $ejercicio = DB::table('ejercicios')->where('nombre', 'flexiones')->first();
+        return view('dietas.aumentar', ['dieta' => $dieta,'ejercicios' =>$ejercicio]);
 
     }
     public function bajar(){
-        $data = DB::table('dietas')->where('nombre', 'Bajar de peso')->first();
-        return view('dietas.bajar', ['datos' => $data]);
+        $dieta = DB::table('dietas')->where('nombre', 'Bajar de peso')->first();
+        $ejercicio = DB::table('ejercicios')->where('nombre', 'flexiones')->first();
+        return view('dietas.bajar', ['dieta' => $dieta,'ejercicios' =>$ejercicio]);
     }
     public function estable(){
-        $data = DB::table('dietas')->where('nombre', 'Definir(fitness)')->first();
-        return view('dietas.estable', ['datos' => $data]);
+        $dieta = DB::table('dietas')->where('nombre', 'Definir(fitness)')->first();
+        $ejercicio = DB::table('ejercicios')->where('nombre', 'flexiones')->first();
+        return view('dietas.estable', ['dieta' => $dieta,'ejercicios' =>$ejercicio]);
     }
 }

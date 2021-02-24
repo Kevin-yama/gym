@@ -17,7 +17,7 @@ class RutinasController extends Controller
         $dieta = DB::table('dieta')
         ->where('nombre','=',"Bajar de peso")
         ->get();
-        return 'la diesta a seguir es '. $dieta . " rutina a segir" . $rutina;
+        return view('rutinas.bajar', ['dieta' => $dieta,'rutina' =>$rutina]);
     }
     public function definir(){
         $rutina = DB::table('rutinas')
@@ -26,7 +26,7 @@ class RutinasController extends Controller
         $dieta = DB::table('dieta')
         ->where('nombre','=','Definir(fitness)')
         ->get();
-        return 'la diesta a seguir es '. $dieta . " rutina a segir" . $rutina;
+        return view('rutinas.estable', ['dieta' => $dieta,'rutina' =>$rutina]);
     }
     public function hipertrofia(){
         $rutina = DB::table('rutinas')
@@ -35,7 +35,7 @@ class RutinasController extends Controller
         $dieta = DB::table('dieta')
         ->where('nombre','=','aumentar peso')
         ->get();
-        return 'la diesta a seguir es '. $dieta . " rutina a segir" . $rutina;
+        return view('rutinas.aumentar', ['dieta' => $dieta,'rutina' =>$rutina]);
     }
 
 }
