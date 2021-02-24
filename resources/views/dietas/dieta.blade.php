@@ -11,13 +11,11 @@ padding-top: 2px;">&#127968; </a>
 				<div class="col-md-4 text-center animate-box" style="margin-bottom: 200px;" >
 					<div class="services" >
 						<h3> {{$data->nombre}} </h3>
-
                         <h4>Tiempo que se realiza:  {{$data->periodo}} </h4>
                         <p>cantidad de proteinas :   {{$data->proteinas}} </p>
                         <p>cantidad de frutas  :   {{$data->frutas_verduras}} </p>
                         <p>cantidad de calorias: {{$data->Grasas}}</p>
 
-						<!-- <p><a href="/ejercicios/pectorales" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p> -->
 					</div>
 				</div>
         @endforeach
@@ -25,7 +23,6 @@ padding-top: 2px;">&#127968; </a>
 			</div>
             <!--  -->
 	    </div>
-
 	</div>
 
 
