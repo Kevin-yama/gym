@@ -43,14 +43,17 @@
     <div  id="dietas" class="row gallery">
       <div class="col-md-4">
         <div class="card">
+          <a href="/rutina/perder-peso">
           <div class="card-body mb-4 wow bounceInLeft" data-wow-delay=".25s">
             <h4 class="card-title">PERDER PESO </h4>
             <p class="card-text">realizar el movimiento van a requerir la participación de varios músculos,
                                  lo cual se traduce en un mayor gasto calórico y por tanto, mayor quema de grasas.</p>
           </div>
+          </a>
           <img class="card-img-top img-fluid wow bounceInRight" data-wow-delay=".25s" src="images/g1.jpg" alt="Card image"> </div>
       </div>
       <div class="col-md-4">
+        <a href="/rutina/definir">
         <div class="card"> <img class="card-img-top img-fluid wow bounceInUp" data-wow-delay=".25s" src="images/g2.jpg" alt="Card image">
           <div class="card-body mt-4 wow bounceInDown" data-wow-delay=".25s">
             <h4 class="card-title">DEFINICION</h4>
@@ -58,15 +61,18 @@
                                     para ello, es necesario perder la grasa subcutánea y eliminar el líquido sobrante de los tejidos.</p>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-md-4">
         <div class="card">
+        <a href="/rutina/hipertrofia">
           <div class="card-body mb-4 wow bounceInRight" data-wow-delay=".25s">
             <h4 class="card-title">HIPERTROFIA</h4>
             <p class="card-text">La hipertrofia muscular es el nombre científico dado al fenómeno de crecimiento
                            en el tamaño de las células musculares, lo cual supone un aumento de tamaño de las fibras musculares y por lo tanto del músculo.</p>
           </div>
           <img class="card-img-top img-fluid wow bounceInLeft" data-wow-delay=".25s" src="images/g3.jpg" alt="Card image"> </div>
+        </a>
       </div>
     </div>
   </div>
@@ -76,28 +82,33 @@
 	<div id="fh5co-services" class="fh5co-bg-section" data-image-src="images/about-us-bg.jpg">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
 						<h3>PECHO </h3>
-                        <!-- <img class="card-img-top rounded-circle img-fluid" src="images/eje1.jpg" alt="Card image" > -->
-                        <img class="card-img-top rounded-circle img-fluid" src="https://m.gifanimados.com/Gifs-Deportes/Animaciones-Fitness/Flexiones/Flexiones-Musculosas-51237.gif" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+                        <img class="card-img-top rounded-circle img-fluid" src="images/eje1.jpg" alt="Card image" >
+						<p><a href="/ejercicios/pectorales" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
                     <h3>ESPALDA </h3>
                         <img class="card-img-top rounded-circle img-fluid" src="images/eje2.jpg" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+						<p><a href="/ejercicios/espalda" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
                     <h3>PIERNAS </h3>
                         <img class="card-img-top rounded-circle img-fluid" src="images/eje3.jpg" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+						<p><a href="/ejercicios/piernas" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
 
 			</div>
 
@@ -107,27 +118,33 @@
     <div id="fh5co-services" class="fh5co-bg-section" data-image-src="images/about-us-bg.jpg">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
 						<h3>BRAZOS </h3>
                         <img class="card-img-top rounded-circle img-fluid" src="images/eje4.jpg" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+						<p><a href="/ejercicios/brazos" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
                     <h3>ABDOMEN </h3>
                         <img class="card-img-top rounded-circle img-fluid" src="images/eje5.jpg" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+						<p><a href="/ejercicios/abdomen" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
                     <h3>GLÚTEOS </h3>
                         <img class="card-img-top rounded-circle img-fluid" src="images/eje6.jpg" alt="Card image" >
-						<p><a href="#" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
+						<p><a href="/ejercicios/gluteos" class="btn btn-primary btn-outline btn-sm"> EJERCICIOS <i class="icon-arrow-right"></i></a></p>
 					</div>
 				</div>
+
 
 			</div>
 

@@ -31,7 +31,7 @@
         <h2> INICIAR ENTRENAMIENTO <br><span> PERSONALISADO</span> </h2>
       </div>
 
-      <a href="#" class="btn text-uppercase btn-outline-danger btn-lg mr-3 mb-3 " disable> Entrenamiento</a>
-      <a href="#" class="btn text-uppercase btn-outline-danger btn-lg mb-3 "> Dieta</a> </div>
+      <a href="#Entrenamiento" class="btn text-uppercase btn-outline-danger btn-lg mr-3 mb-3 " disable> Entrenamiento</a>
+      <a href="/dietas" class="btn text-uppercase btn-outline-danger btn-lg mb-3 "> Dieta</a> </div>
   </div>
 
