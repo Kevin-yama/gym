@@ -9,19 +9,19 @@ class DietasController extends Controller
     //
     public function dieta(){
         $data = DB::table('dieta')->get();
-        return $data;
+        return view('dietas.dieta', ['datos' => $data]);
     }
     public function aumentar(){
         $data = DB::table('dietas')->where('nombre', 'aumentar peso')->first();
-        return $data;
+        return view('dietas.aumentar', ['datos' => $data]);
 
     }
     public function bajar(){
         $data = DB::table('dietas')->where('nombre', 'Bajar de peso')->first();
-        return $data;
+        return view('dietas.bajar', ['datos' => $data]);
     }
     public function estable(){
         $data = DB::table('dietas')->where('nombre', 'Definir(fitness)')->first();
-        return $data;
+        return view('dietas.estable', ['datos' => $data]);
     }
 }

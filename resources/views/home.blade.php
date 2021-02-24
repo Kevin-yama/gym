@@ -82,7 +82,6 @@
 	<div id="fh5co-services" class="fh5co-bg-section" data-image-src="images/about-us-bg.jpg">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-md-4 text-center animate-box">
 					<div class="services">
 						<h3>PECHO </h3>

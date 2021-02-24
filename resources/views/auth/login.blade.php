@@ -16,7 +16,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="wrapper">
-  <form class="login">
+  <form action="\home" class="login">
     <p class="title"> Ingrese sus datos</p>
     <input type="text" placeholder="Usuario" autofocus/>
     <i class="fa fa-user"></i>
